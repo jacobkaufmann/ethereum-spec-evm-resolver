@@ -130,6 +130,10 @@ def get_default_resolutions() -> Dict[str, Resolution]:
             "git_url": "https://github.com/ethereum/execution-specs.git",
             "branch": "forks/prague",
         },
+        "Osaka": {
+            "git_url": "https://github.com/jacobkaufmann/execution-specs.git",
+            "branch": "eips/osaka/eip-7805",
+        },
     }
     for fork_name in [
         "Frontier",
