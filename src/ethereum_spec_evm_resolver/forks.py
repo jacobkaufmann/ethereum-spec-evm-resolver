@@ -133,7 +133,7 @@ def get_default_resolutions() -> Dict[str, Resolution]:
         "Osaka": {
             "git_url": "https://github.com/jacobkaufmann/execution-specs.git",
             "branch": "eips/osaka/eip-7805",
-            "commit": "441801ed82e922352bf4ce1374406a345c89b671",
+            "commit": "5be696593da7e373fe7c9b3d10b790b998f84d07",
         },
     }
     for fork_name in [
